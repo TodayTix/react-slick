@@ -1666,11 +1666,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      return _react2.default.createElement(
 	        'li',
 	        { key: i, className: className },
-	        _react2.default.createElement(
-	          'button',
-	          { onClick: _this.clickHandler.bind(_this, dotOptions) },
-	          i + 1
-	        )
+	        _react2.default.createElement('button', { onClick: _this.clickHandler.bind(_this, dotOptions) })
 	      );
 	    });
 
